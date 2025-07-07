@@ -8,13 +8,13 @@
 DB_CONFIG = {
     'host': 'localhost',      # 数据库主机地址
     'user': 'root',           # 数据库用户名
-    'password': 'xxxxx',   # 数据库密码
-    'database': 'xxxxxx',      # 数据库名
+    'password': 'He030201',   # 数据库密码
+    'database': 'stock_history',      # 数据库名
     'charset': 'utf8mb4'
 }
 
 # DashScope API Key
-DASHSCOPE_API_KEY = 'xxxxxxxx'  # 请修改为你的API Key 
+DASHSCOPE_API_KEY = 'sk-c74fb20105a44b038d7872a41c6f40e4'  # 请修改为你的API Key 
 
 # Tushare Token
-TUSHARE_TOKEN = 'xxxxxxxxxx'  # 请修改为你的Tushare Token
+TUSHARE_TOKEN = '21c3db75e9c07629aa214e66a6738b2e0e02e9e7dd29aed9d7d87250'  # 请修改为你的Tushare Token
