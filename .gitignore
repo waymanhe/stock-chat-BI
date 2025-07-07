@@ -1,0 +1,41 @@
+# Python缓存和编译文件
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 数据文件和输出
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+*.log
+
+# 自动生成的图片
+image_show/
+
+# 配置文件（敏感信息）
+
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE配置
+.vscode/
+.idea/
+
+# 其他
+*.bak
+*.swp
+
+# 如需保留部分样本数据，可单独在README说明

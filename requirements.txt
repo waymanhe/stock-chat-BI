@@ -1,0 +1,10 @@
+tushare
+pandas
+xlsxwriter
+mysql-connector-python
+sqlalchemy
+matplotlib
+numpy
+qwen-agent
+dashscope
+prophet 
