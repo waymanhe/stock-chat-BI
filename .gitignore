@@ -24,7 +24,7 @@ venv/
 image_show/
 
 # 配置文件（敏感信息）
-
+config.py
 
 # 系统文件
 .DS_Store
