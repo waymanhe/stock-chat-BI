@@ -38,13 +38,15 @@ cd <项目目录>
    - 自己整理 `stock_history-2.csv` 进行测试。
    - **方式二：自定义采集数据**
    - 配置好 Tushare Token 后，运行 `fetch_stock_history.py` 抓取数据，生成 `stock_history.xlsx`。
-   - 再运行 `convert_and_sort_stock_history.py` 生成 `stock_history-2.csv`
+2. 再运行 `convert_and_sort_stock_history.py` 生成 `stock_history-2.csv`
 
 
 ### 3. 数据库初始化
 1. 启动 MySQL，创建数据库（如 `stock_history`）。
-2. 执行 `stock_history_table.sql` 创建表结构。
-3. 用 pandas、Navicat 或其他工具将 `stock_history-2.csv` 数据导入表中。
+2. 复制 `stock_history_table.sql` 内容，在mySql中创建表结构。
+3. 用 `import_data.py` 将 `stock_history-2.csv` 数据导入表中。或者自己去数据库导入csv。
+
+![导入成功预览](readmeImg/导入成功预览.png)
 
 ### 4. 配置环境变量
 - 设置大模型 API Key（如 DashScope）：
@@ -64,9 +66,10 @@ cd <项目目录>
   # 修改 assistant_stock_bot.py 末尾为 app_tui()
   python assistant_stock_bot.py
   ```
-
-### 正常启动的
-
+---
+![启动成功预览](readmeImg/项目启动成功预览.png)
+---
+![页面成功预览](readmeImg/页面浏览.png)
 ---
 
 ## 帮助
